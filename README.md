@@ -18,7 +18,7 @@ Traffic sign detection and classification play a crucial role in advancing Intel
 The dataset used to recognize traffic sign: 
 This dataset was constructed by merging two distinct datasets. The first [dataset](https://link.springer.com/chapter/10.1007/978-981-99-8937-9_37) contains 13 classes, all of which were included in our study. From the second [dataset](https://zenodo.org/records/11511846), we selected 11 classes. However, the classes in this dataset were unstructured, with images mixed and scattered among various categories. To be more specific, one of the datasets contains over 2,000 images representing thirteen different types of common traffic signs found in Bangladesh. After applying data augmentation techniques, the dataset was expanded to approximately 9,091 images. The second dataset consists of a total of 6,168 images, representing eleven distinct types of traffic signs commonly observed in Bangladesh.
 
-## Workflow
+## Procedure
 The traffic sign recognition system using Vision Transformers (ViT) employed a hybrid dataset combining Bangladeshi traffic sign datasets, totaling 15,259 images. The images were resized to 224 × 224 pixels, with data augmentation for variability. ViT, with its multi-headed self-attention and classification head, was trained in TensorFlow on dual NVIDIA T4 GPUs. The optimizer used was SGD with momentum, and training lasted 25 epochs with early stopping. Performance metrics included accuracy (99.7%), precision, recall, F1-score, and cross-entropy loss (0.711). ViT outperformed CNN architectures like VGG19 and DenseNet121. Future work includes hybrid CNN-ViT models, datasets with adverse conditions, and lightweight model optimization for real-world deployment.
 
 
