@@ -6,11 +6,11 @@ Traffic sign detection and classification play a crucial role in advancing Intel
 #### ViT Architecture:
 <img src="Images/vit_architecture.png" /><br/>
 #### Merged Bangladeshi Dataset:
-<img src="Images/merged_dataset.png" />
+<img src="Images/histogram_image_counts.png" />
 
 ## Quickstart the project
-1. Download the code in `ZIP` or open with `GitHub Desktop` or `https://github.com/dabbrata/Depth-Estimation-Enc-Dec.git`.
-2. Then import `IRv2_Decoder_Monocular_Depth_Estimation_Full_Notebook.ipynb` file to your notebook.
+1. Download the code in `ZIP` or open with `GitHub Desktop` or `https://github.com/dabbrata/Traffic-Sign-ViT-B.git`.
+2. Then import `Traffic-sign-vit-with-tf.ipynb` file to your notebook.
 3. Install required python dependencies into your python environment / virtual environment using `pip install -r Requirements.txt`.
 4. Run all the cells of that imported (.ipynb) file.
 
